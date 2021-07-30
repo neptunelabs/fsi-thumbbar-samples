@@ -2,7 +2,7 @@ title: Simple ThumbBar
 image: logo.png
 description: This simple demo shows a normal thumb bar with zoom function.
 priority: 1
-sfiddle:
+jsfiddle:
   mapping:
     html: "index.html"
     css: "simple.css"
