@@ -5,10 +5,9 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://github.com/neptunelabs/fsi-layers-samples/blob/main/LICENSE)
 
 
-FSI Layers renders any number of images as layers in a canvas.
+FSI ThumbBar is a Javascript based image thumb bar with optional image zoom.
 The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
-All layers can be animated and blended.
-FSI Layers can be created and controlled as a simple HTML tag and/or via JavaScript API.
+FSI ThumbBar can be created and controlled as a simple HTML tag and/or via JavaScript API.
 
 This repository contains examples on how to use and build your own applications.
 
