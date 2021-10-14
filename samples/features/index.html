@@ -39,10 +39,8 @@
   </div>
 
   <div class="row d-md-flex text-light flex-md-equal py-3 mx-auto text-center overflow-hidden">
-    <div class="col-md-3">
-    </div>
-    <div class="col-md-6 overflow-hidden">
-      <div class="fsi-showcase-buttons">
+    <div class="col-md-10 overflow-hidden d-md-flex mx-auto">
+      <div class="fsi-showcase-buttons w-100 mx-auto">
         <div class="fsi-showcase-buttons-inner" id="myThumbBarControls">
           <input class="prev" type="button" x-fsi-cmd="previousImage" />
           <input class="next"  type="button" x-fsi-cmd="nextImage"/>
@@ -63,11 +61,10 @@
         cmdButtonSelector="#myThumbBarControls > input"
         id="fsi-thumbs"
         thumbLabel="###iptc.Caption### <br/>###iptc.FSI Extra###"
+        enableZoom="false"
       >
       </fsi-thumbbar>
 
-    </div>
-    <div class="col-md-3 pr-0">
     </div>
   </div>
 
@@ -75,17 +72,15 @@
     <h2 class="display-5">Or omit the captions and add zoom.</h2>
   </div>
   <div class="d-md-flex text-light flex-md-equal mx-auto text-center overflow-hidden">
-    <h6>Just an example of a simple Thumbbar.</h6>
+    <h6>Just an example of a simple Thumbbar. Click on an image for zoom!</h6>
   </div>
 
   <div class="row d-md-flex text-light flex-md-equal py-3 pb-5 mx-auto text-center overflow-hidden">
-    <div class="col-md-3">
-    </div>
-    <div class="col-md-6 overflow-hidden">
-      <div class="fsi-showcase-buttons">
+    <div class="col-md-10 overflow-hidden d-md-flex mx-auto">
+      <div class="fsi-showcase-buttons w-100 mx-auto">
         <div class="fsi-showcase-buttons-inner" id="myThumbBarControls2">
-          <input class="prev" type="button" x-fsi-cmd="previousImage" />
-          <input class="next"  type="button" x-fsi-cmd="nextImage"/>
+          <input class="prev1" type="button" x-fsi-cmd="previousImage" />
+          <input class="next1"  type="button" x-fsi-cmd="nextImage"/>
         </div>
       </div>
       <fsi-thumbbar
@@ -106,8 +101,6 @@
       >
       </fsi-thumbbar>
 
-    </div>
-    <div class="col-md-3 pr-0">
     </div>
   </div>
   </div>

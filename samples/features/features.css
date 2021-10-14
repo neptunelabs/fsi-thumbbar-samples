@@ -23,9 +23,10 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 }
 
 .fsi-showcase-buttons {
-  width: 55%;
   height: 200px;
   position:absolute;
+
+
 }
 
 @media screen and (min-width: 800px) {
@@ -47,8 +48,8 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 .prev {
   margin-right:5px;
   position:absolute;
-  left:-148px;
-  top:50%;
+  left:-580px;
+  top:65%;
   transform: translate(-100%, -50%);
   width: 25px;
   height: 25px;
@@ -62,7 +63,38 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 
 .next {
   position:absolute;
-  right:-28px;
+  right:70px;
+  top:65%;
+  transform: translate(100%, -50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-right.svg)!important;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: center center;
+
+}
+
+.prev1 {
+  margin-right:5px;
+  position:absolute;
+  left:-580px;
+  top:50%;
+  transform: translate(-100%, -50%);
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-left.svg)!important;
+  background-repeat: no-repeat;
+  background-size: contain !important;
+  background-position: center center;
+
+}
+
+.next1 {
+  position:absolute;
+  right:70px;
   top:50%;
   transform: translate(100%, -50%);
   width: 25px;
