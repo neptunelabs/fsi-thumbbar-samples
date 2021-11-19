@@ -1,0 +1,14 @@
+title: Frontpage with ThumbBar
+image: logo.png
+description: Shows how a frontpage could look with a thumbbar included.
+priority: 1
+jsfiddle:
+  mapping:
+    html: "index.html"
+    css: "frontpage.css"
+    js: "frontpage.js"
+  resources:
+    - "{{{fsi.server}}}/{{{fsi.context}}}/{{{fsi.viewer}}}/applications/touchzoom/js/fsitouchzoom.js"
+    - https://cdn.jsdelivr.net/npm/bootstrap@{{dependencies.bootstrap}}/dist/css/bootstrap.min.css
+    - https://cdn.jsdelivr.net/npm/bootstrap@{{dependencies.bootstrap}}/dist/js/bootstrap.bundle.min.js
+    - https://cdn.jsdelivr.net/npm/bootstrap-icons@{{dependencies.bootstrapIcons}}/font/bootstrap-icons.css

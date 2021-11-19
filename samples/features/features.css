@@ -29,9 +29,9 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 
 }
 
-@media screen and (min-width: 800px) {
-  .fsi-fullscreen-element .fsi-showcase-buttons {
-    display:none;
+@media screen and (max-width: 900px) {
+  .fsi-showcase-buttons {
+    display:none!important;
   }
 }
 
@@ -48,7 +48,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 .prev {
   margin-right:5px;
   position:absolute;
-  left:-580px;
+  left:-575px;
   top:65%;
   transform: translate(-100%, -50%);
   width: 25px;
@@ -79,7 +79,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 .prev1 {
   margin-right:5px;
   position:absolute;
-  left:-580px;
+  left:-575px;
   top:50%;
   transform: translate(-100%, -50%);
   width: 25px;
