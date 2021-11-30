@@ -19,7 +19,7 @@ There are several possibilities to upload images into the interface.
 - Drag & Drop files to the file view or the tree view
 
 While having an image or folder selected, you can see all possible publishing ways for the specific item by visting the Publish To Web tab.
-For this example, select one image and use the preset *ThumbBar hoirzontal* in the section *ThumbBars* :
+For this example, select one image and use the preset *ThumbBar horizontal* in the section *ThumbBars* :
 
 ![Config Image](readme-thumb-1.png)
 
@@ -51,9 +51,9 @@ to the head of your website:
   src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
 </script>
 ```
-This ensures that FSI Thumbbar is loaded.
+This ensures that FSI ThumbBar is loaded.
 
-Simply embed an FSI Thumbbar tag on the page where you want to display the thumb bar.
+Simply embed an FSI ThumbBar tag on the page where you want to display the thumb bar.
 In our example, this looks like this:
 
 ```html
@@ -80,11 +80,11 @@ In our example, this looks like this:
 In our example we have displayed some labels beneath the thumb bar.
 This is achieved by adding the following parameter: **thumbLabel="###iptc.Headline### <br/>###iptc.Caption### <br/>###iptc.FSI Extra###"**
 
-In order to add meta data, go to the tab *Matadata* and click on the three tiles on the right, selecting **Add fields**:
+In order to add metadata, go to the tab *Metadata* and click on the three tiles on the right, selecting **Add fields**:
 
 ![Config Image](readme-thumb-3.png)
 
-Tip: if you does this with multiple images selected, the fields will be added to them, making it more convenient.
+Tip: if you do this with multiple images selected, the fields will be added to them, making it more convenient.
 
 We have added Headlines, Caption and FSI Extra to it:
 
