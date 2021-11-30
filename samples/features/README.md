@@ -75,7 +75,7 @@ In our example, this looks like this:
 >
 </fsi-thumbbar>
 ```
-## Adding Meta Data to images
+## Adding Metadata to images
 
 In our example we have displayed some labels beneath the thumb bar.
 This is achieved by adding the following parameter: **thumbLabel="###iptc.Headline### <br/>###iptc.Caption### <br/>###iptc.FSI Extra###"**
@@ -93,6 +93,34 @@ We have added Headlines, Caption and FSI Extra to it:
 You can then type in all the information you want to display in the fields:
 
 ![Config Image](readme-thumb-5.png)
+
+## Adding Scroll Buttons
+
+If you want to add control buttons to the FSI ThumbBar instance (e.g. like in this example to scroll through the available images), you can do this by
+using the cmdButtonSelector parameter and corresponding HTML attributes.
+
+In order to set buttons around the FSI ThumbBar element, we create a div with the class fsi-showcase-buttons between the fsi-viewer and the fsi-thumbbar element:
+
+```html
+<div class="fsi-showcase-buttons w-100 mx-auto">
+        <div class="fsi-showcase-buttons-inner" id="myThumbBarControls">
+          <input class="prev" type="button" x-fsi-cmd="previousImage" />
+          <input class="next"  type="button" x-fsi-cmd="nextImage"/>
+        </div>
+      </div>
+```
+
+The inner div with the class fsi-showcase-buttons-inner receives the ID myThumbBarControls. This ID needs to be referred to in the tag in the following way:
+
+*cmdButtonSelector="#myThumbBarControls > input"*
+
+The input elements need to be provided with the corresponding FSI commands in order to function properly. In this case, we have added
+
+*x-fsi-cmd="previousImage"*
+to the left button and
+
+*x-fsi-cmd="nextImage"*
+to the right button.
 
 ## Testing with examples from your own server
 
