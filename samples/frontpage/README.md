@@ -43,7 +43,7 @@ For all parameters which can be used, please consult the [manual](https://docs.n
 
 # Using FSI ThumbBar
 
-In order to display all images with TouchZoom, you only need to add the corresponding script
+In order to display the images as a thumb bar, you only need to add the corresponding script
 to the head of your website:
 
 ```html
