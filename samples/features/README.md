@@ -48,7 +48,7 @@ to the head of your website:
 
 ```html
 <script
-  src='https://fsi-site.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
+  src='https://docs.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
 </script>
 ```
 This ensures that FSI ThumbBar is loaded.

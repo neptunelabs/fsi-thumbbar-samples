@@ -3,7 +3,7 @@
 }
 
 .bg-image {
-  background-image: url("//fsi-site-origin.neptunelabs.com/fsi/server?type=image&source=images/samples/grid/background/gradienta-t-Rt42Wl1RQ-unsplash.jpg&width=1950");
+  background-image: url("{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/grid/background/gradienta-t-Rt42Wl1RQ-unsplash.jpg&width=1950");
   background-repeat: no-repeat;
   background-position:right top;
   background-size:100% 100%;
@@ -54,7 +54,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
   width: 25px;
   height: 25px;
   border-radius: 10%;
-  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-left.svg)!important;
+  background-image: url({{{fsi.server}}}/{{{fsi.context}}}/static/assets/icons/icon-arrow-left.svg)!important;
   background-repeat: no-repeat;
   background-size: contain !important;
   background-position: center center;
@@ -69,7 +69,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
   width: 25px;
   height: 25px;
   border-radius: 10%;
-  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-right.svg)!important;
+  background-image: url({{{fsi.server}}}/{{{fsi.context}}}/static/assets/icons/icon-arrow-right.svg)!important;
   background-repeat: no-repeat;
   background-size: contain !important;
   background-position: center center;
@@ -85,7 +85,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
   width: 25px;
   height: 25px;
   border-radius: 10%;
-  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-left.svg)!important;
+  background-image: url({{{fsi.server}}}/{{{fsi.context}}}/static/assets/icons/icon-arrow-left.svg)!important;
   background-repeat: no-repeat;
   background-size: contain !important;
   background-position: center center;
@@ -100,7 +100,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
   width: 25px;
   height: 25px;
   border-radius: 10%;
-  background-image: url(//fsi-site.neptunelabs.com/fsi/static/assets/icons/icon-arrow-right.svg)!important;
+  background-image: url({{{fsi.server}}}/{{{fsi.context}}}/static/assets/icons/icon-arrow-right.svg)!important;
   background-repeat: no-repeat;
   background-size: contain !important;
   background-position: center center;
