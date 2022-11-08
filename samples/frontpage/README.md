@@ -4,43 +4,6 @@ This readme describes how the front page sample with *FSI ThumbBar* of *FSI Serv
 The aim of the demo is to show how you can easily integrate the viewer.
 You will also learn how to add metadata to images.
 
-# Add your images/ assets to FSI Server
-
-First, you'll need to upload the images you want to use to FSI Server.
-You can install a [demo version](https://www.neptunelabs.com/get/) via Docker or use our [online demo server](https://demo.fsi-server.com/fsi/interface/) to try it out first.
-
-# Uploading images
-
-There are several possibilities to upload images into the interface.
-
-![Config Image](readme-thumb.png)
-
-- Choose the Upload tab, click the "Choose files" button to add files to upload to the list. The files will be uploaded to the current folder.
-- Drag & Drop files to the file view or the tree view
-
-While having an image or folder selected, you can see all possible publishing ways for the specific item by visiting the "Publish To Web" tab.
-For this example, select one image and use the preset *ThumbBar horizontal* in the section *ThumbBars* :
-
-![Config Image](readme-thumb-1.png)
-
-This publishes the directory with a custom <fsi-thumbbar> tag and displays a horizontal thumbnail bar.
-
-
-![Config Image](readme-thumb-2.png)
-
-The *Source Code* section enables you to control the look of your viewer by setting the dimensions and format, as well as adding effects or crop options to it.
-
-You can set the output dimensions and format (auto automatically chooses the best format for the browser used, or you can set WEBP, JPEG, PNG or GIF).
-In this area you also can see the source code for your selected publishing option which you can edit and copy to publish the images.
-
-Here you also see the <fsi-thumbbar> tag which sets the parameters used for the zoom option.
-If you click on the tag, the bar on the right automatically switches to the tab *Parameters*, enabling you to customize the ThumbBar to your liking.
-
-![Config Image](readme-thumb-2-1.png)
-
-For all parameters which can be used, please consult the [manual](https://docs.neptunelabs.com/fsi-viewer/latest/fsi-thumbbar).
-
-
 # Using FSI ThumbBar
 
 In order to display the images as a thumb bar, you only need to add the corresponding script
