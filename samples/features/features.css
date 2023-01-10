@@ -6,11 +6,6 @@
   margin-left: 0px !important;
 }
 
-.thumbnail
-{
-  cursor: pointer;
-}
-
 fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail img{
   border:1px solid transparent;
 }
@@ -125,11 +120,3 @@ div.fsi-thumbbar-container .fsi-thumbbar-thumbnail p.fsi-thumbbar-label {
   font-family: sans-serif;
 }
 
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
-}
