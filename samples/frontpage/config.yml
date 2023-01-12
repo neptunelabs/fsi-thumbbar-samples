@@ -20,7 +20,14 @@ sample:
         link: SHOP NOW
       highlight: DEALS OF THE DAY
       categories: true
-      footer: true
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/dynamic-imaging/
       fsi:
         thumbBar: true
       bootstrap:
