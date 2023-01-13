@@ -115,8 +115,8 @@ fsi-thumbbar.fsi-thumbs{
 }
 
 div.fsi-thumbbar-container .fsi-thumbbar-thumbnail p.fsi-thumbbar-label {
-  background-color: #eee0;
-  color: #eee;
+  background-color: #eee0!important;
+  color: #eee!important;
   font-family: sans-serif;
 }
 
