@@ -1,23 +1,23 @@
 # Frontpage - Using FSI ThumbBar for featured products
 
-This readme describes how the front page sample with *FSI ThumbBar* of *FSI Server* is achieved.
-The aim of the demo is to show how you can easily integrate the viewer.
+This readme describes how to achieve the front page example with *FSI ThumbBar* from *FSI Server*.
+The aim of the demo is to show you how to easily integrate the viewer.
 You will also learn how to add metadata to images.
 
 # Using FSI ThumbBar
 
-In order to display the images as a thumb bar, you only need to add the corresponding script
-to the head of your website:
+To display the images as a thumbnail, all you need to do is add the script
+at the top of your page:
 
 ```html
 <script
   src='https://docs.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
 </script>
 ```
-This ensures that FSI ThumbBar is loaded.
+This will ensure that FSI ThumbBar is loaded.
 
-Simply embed an FSI ThumbBar tag on the page where you want to display the thumb bar.
-In our example, this looks like this:
+Simply embed an FSI ThumbBar tag in the page where you want the thumb bar to appear.
+In our example it looks like this:
 
 ```html
     <fsi-thumbbar

@@ -1,13 +1,13 @@
 # Frontpage - Using FSI ThumbBar for featured products
 
-This readme describes how the front page sample with *FSI ThumbBar* of *FSI Server* is achieved.
+This readme describes how to achieve the front page example with *FSI ThumbBar* from *FSI Server*.
 The aim of the demo is to show how you can easily integrate the viewer.
-You will also learn how to add metadata to images and add scroll buttons.
+You will also learn how to add metadata to images and how to add scroll buttons.
 
 # Using FSI ThumbBar
 
-In order to display all images with TouchZoom, you only need to add the corresponding script
-to the head of your website:
+To display all images with TouchZoom, all you need to do is add the script
+at the top of your website:
 
 ```html
 <script
@@ -48,11 +48,10 @@ To see how to add the metadata, [please consult readme of the other demo](https:
 
 ## Adding Scroll Buttons
 
-If you want to add control buttons to the FSI ThumbBar instance (e.g. like in this example to scroll through the available images), you can do this by
-using the cmdButtonSelector parameter and corresponding HTML attributes.
+If you want to add control buttons to the FSI ThumbBar instance (e.g. as in this example to scroll through the available images), you can do this by
+using the cmdButtonSelector parameter and the appropriate HTML attributes.
 
-In order to set buttons around the FSI ThumbBar element, we create a div with the class fsi-showcase-buttons between the fsi-viewer and the fsi-thumbbar element:
-
+To place buttons around the FSI ThumbBar element, we create a div with the class fsi-showcase-buttons between the fsi-viewer and the fsi-thumbbar element:
 ```html
 <div class="fsi-showcase-buttons w-100 mx-auto">
         <div class="fsi-showcase-buttons-inner" id="myThumbBarControls">
@@ -62,7 +61,7 @@ In order to set buttons around the FSI ThumbBar element, we create a div with th
       </div>
 ```
 
-The inner div with the class fsi-showcase-buttons-inner receives the ID myThumbBarControls. This ID needs to be referred to in the tag in the following way:
+The inner div with the class fsi-showcase-buttons-inner gets the ID myThumbBarControls. This ID must be referenced in the tag as follows:
 
 *cmdButtonSelector="#myThumbBarControls > input"*
 
