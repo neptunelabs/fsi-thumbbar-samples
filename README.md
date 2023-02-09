@@ -6,10 +6,10 @@
 
 
 FSI ThumbBar is a Javascript based image thumb bar with optional image zoom.
-The real-time scaling capabilities of the image server are used to achieve pixel-perfect results.
-FSI ThumbBar can be created and controlled as a simple HTML tag and/or via JavaScript API.
+It uses the real-time scaling capabilities of the image server to achieve pixel-perfect results.
+FSI ThumbBar can be created and controlled as a simple HTML tag and/or via the JavaScript API.
 
-This repository contains examples on how to use and build your own applications.
+This repository contains examples of how to use and build your own applications.
 
 ![Project Image](project.gif)
 
