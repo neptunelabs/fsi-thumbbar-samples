@@ -1,7 +1,7 @@
 overview:
   title: Product Carousel
   image: logo.png
-  description: Shows how a product carousel could look with metadata and buttons used.
+  description: Shows how a product carousel with metadata and buttons used looks.
   facts:
     - JS built thumb bar
     - Meta Data use for labels

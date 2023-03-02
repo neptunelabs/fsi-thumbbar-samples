@@ -1,7 +1,7 @@
 overview:
   title: Frontpage with ThumbBar
   image: logo.png
-  description: Shows how a frontpage could look with a thumbbar included.
+  description: Shows how a frontpage with a thumbbar included looks.
   facts:
     - JS built thumb bar
     - Meta Data use for labels
