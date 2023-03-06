@@ -1,18 +1,9 @@
-.content {
-  max-width: 1536px;
-}
-
 .bg-image {
   background-image: url("{{{fsi.server}}}/{{{fsi.context}}}/server?type=image&source=images/samples/grid/background/gradienta-t-Rt42Wl1RQ-unsplash.jpg&width=1950");
   background-repeat: no-repeat;
   background-position:right top;
   background-size:100% 100%;
   margin-left: 0px !important;
-}
-
-.thumbnail
-{
-  cursor: pointer;
 }
 
 fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail img{
@@ -63,7 +54,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 
 .next {
   position:absolute;
-  right:70px;
+  right:60px;
   top:65%;
   transform: translate(100%, -50%);
   width: 25px;
@@ -94,7 +85,7 @@ fsi-thumbbar div.fsi-thumbbar-container .fsi-thumbbar-thumbnail.fsi-selected-thu
 
 .next1 {
   position:absolute;
-  right:70px;
+  right:60px;
   top:50%;
   transform: translate(100%, -50%);
   width: 25px;
@@ -124,60 +115,8 @@ fsi-thumbbar.fsi-thumbs{
 }
 
 div.fsi-thumbbar-container .fsi-thumbbar-thumbnail p.fsi-thumbbar-label {
-  background-color: #eee0;
+  background-color: #eee0!important;
   color: #eee;
   font-family: sans-serif;
 }
 
-
-.site-header {
-  background-color: rgba(0, 0, 0, .85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-}
-
-.footer {
-  background-color: rgba(0, 0, 0, .85);
-  -webkit-backdrop-filter: saturate(180%) blur(20px);
-  backdrop-filter: saturate(180%) blur(20px);
-  color: #fff;
-}
-.site-header a {
-  color: #fff;
-  padding: 10px;
-  transition: color .15s ease-in-out;
-  text-decoration: none;
-}
-.site-header a:hover {
-  color: #fff;
-  background-color: #91B595;
-  padding: 10px;
-  text-decoration: none;
-}
-
-.btn-outline-secondary {
-  color: #000!important;
-  border-color: #000!important;
-}
-
-.btn-outline-secondary:hover {
-  color: #fff!important;
-  border-color: #fff!important;
-  background-color: #91B595!important;
-}
-
-.credit{
-  font-size: x-small;
-  color: #666666;
-  text-align: left;
-  padding-right: 10px;
-}
-
-.flex-equal > * {
-  flex: 1;
-}
-@media (min-width: 768px) {
-  .flex-md-equal > * {
-    flex: 1;
-  }
-}
