@@ -38,7 +38,7 @@ sample:
         icons: false
   mapping:
     html: 'index.html'
-    css: 'frontpage.css'
-    js: 'frontpage.js'
+    css: 'style.css'
+    js: 'script.js'
 jsfiddle:
   deploy: true
