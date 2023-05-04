@@ -1,0 +1,44 @@
+overview:
+  title: Frontpage with ThumbBar
+  image: logo.png
+  description: Shows how a frontpage with a thumbbar included looks.
+  facts:
+    - JS built thumb bar
+    - Meta Data use for labels
+    - Styling via CSS
+  order: 1
+sample:
+  template:
+    schema: framework-2023
+    components:
+      menu:
+        template: data/furniture-menu.yml
+      hero:
+        url: /server?type=image&source=images/samples/ssi/furniture/house-6691124.jpg&width=1903&rect=0.01416,0.53388,0.75133,0.21963
+        height: 33vh
+        logo:
+          url: /static/assets/samples/ssi/sale.svg
+          height: 30%
+        title: Black Friday
+        description: Check out our furniture sale.
+        link: SHOP NOW
+      highlight: DEALS OF THE DAY
+      categories: true
+      footer:
+        credits:
+          photos:
+            author: various artists
+            link: https://pixabay.com/
+            platform: Pixabay
+          viewer:
+            link: https://www.neptunelabs.com/dynamic-imaging/
+      fsi:
+        thumbBar: true
+      bootstrap:
+        icons: false
+  mapping:
+    html: 'index.html'
+    css: 'style.css'
+    js: 'script.js'
+playground:
+  deploy: true
