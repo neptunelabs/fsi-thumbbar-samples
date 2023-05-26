@@ -11,7 +11,7 @@ at the top of your page:
 
 ```html
 <script
-  src='https://docs.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
+  src='https://fsi.domain.tld/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
 </script>
 ```
 
