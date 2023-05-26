@@ -10,7 +10,7 @@ To display all images with TouchZoom, all you need to do is add the script at th
 
 ```html
 <script
-  src='https://docs.neptunelabs.com/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
+  src='https://fsi.domain.tld/fsi/viewer/applications/thumbbar/js/fsithumbbar.js'
 </script>
 ```
 
