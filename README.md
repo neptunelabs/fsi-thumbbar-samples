@@ -1,4 +1,4 @@
-# [FSI ThumbBar](https://www.neptunelabs.com) &middot; Samples
+# [FSI ThumbBar](https://www.neptunelabs.com/fsi-thumbbar/) &middot; [Samples][GHPages]
 | ***Pixel-perfect*** | ***High-DPI-ready*** | ***Fast :rocket:*** | ***Hackable*** | ***Consistent*** |
 |:-----------------:|:-------------:|:---------------:|:---------------:|:---------------:|
 
