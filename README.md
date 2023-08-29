@@ -63,7 +63,7 @@ For further information on the FSI Viewer and FSI Server,
 please refer to the official [documentation][Docs].
 
 [License]: https://github.com/neptunelabs/fsi-thumbbar-samples/blob/main/LICENSE
-[Docs]: https://docs.neptunelabs.com/fsi-viewer/latest/fsi-thumbbar
+[Docs]: https://docs.neptunelabs.com/docs/fsi-thumbbar
 [Server]: https://www.neptunelabs.com/get/
 [Grunt]: https://gruntjs.com/
 [Browsersync]: https://browsersync.io/
