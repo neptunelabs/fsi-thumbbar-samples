@@ -60,7 +60,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
   document.getElementById('thumbBtn').addEventListener('click', () => {
 
-    let instance = new $FSI.ThumbBar('thumbEle', {
+    const show = () => {
+      // show FSI ThumbBar instance and hide image
+      document.getElementById('thumbEle').style.visibility = 'visible'
+      document.getElementById('thumbImg').style.display = 'none'
+      document.getElementById('thumbBtn').style.display = 'none'
+      document.getElementById('thumbText').style.display = 'none'
+      // Start auto rotation
+      setTimeout(() => {
+        instance.startAutoRotate(1)
+      }, 500)
+    }
+
+    const instance = $FSI.createNode("fsi-thumbbar",{
       width:'100%',
       height:'300px',
       imagesources:'images/samples/ssi/furniture/home-7473734.jpg, images/samples/ssi/furniture/home-7531451.jpg, images/samples/ssi/furniture/home-7531461_1920.jpg, images/samples/ssi/furniture/home-7531469.jpg, images/samples/ssi/furniture/home-7567164.jpg, images/samples/ssi/furniture/interior-design-6012873.jpg, images/samples/ssi/furniture/dresser-6717656.jpg, images/samples/ssi/furniture/living-room-7225005.jpg, images/samples/ssi/furniture/living-room-7547558.jpg, images/samples/ssi/furniture/home-2082923.jpg',
@@ -75,28 +87,21 @@ document.addEventListener('DOMContentLoaded', () => {
       thumbLabel:'###iptc.Headline### <br/>###iptc.Caption### <br/><br/>###iptc.Urgency###',
       enableZoom:'true',
       // listen for finished loading FSI ThumbBar and becomes interactive
-      onReady: () => {
-        // show FSI ThumbBar instance and hide image
-        document.getElementById('thumbEle').style.visibility = 'visible'
-        document.getElementById('thumbImg').style.display = 'none'
-        document.getElementById('thumbBtn').style.display = 'none'
-        document.getElementById('thumbText').style.display = 'none'
-        // Start auto rotation
-        setTimeout(() => {
-          instance.startAutoRotate(1)
-        }, 500)
-      },
-
+      onReady: show
     }, true)
-
+    document.getElementById('thumbEle').appendChild(instance)
   })
 
 })
+
 ```
 
 A click on the `thumbBtn` element will initialise a new FSI Viewer element in the `thumbEle` element.
 
-With the `onReady` callback (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/callbacks#onready)) we ensure a smooth transition:
+We create `show` which is called with the `onReady` callback (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/callbacks#onready).
+With this, we ensure a smooth transition:
 Only when the viewer is ready will the viewer element will be set to visible, while the image, text and button are set to `display:none`.
+
+The viewer itself is created with `$FSI.createNode("fsi-thumbbar",{parameters})`.
 
 Then the method `startAutoRotate` will be executed after a timeout (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/public-methods#startautorotate)).
