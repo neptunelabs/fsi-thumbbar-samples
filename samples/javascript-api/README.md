@@ -5,7 +5,7 @@ You can find [an overview of all available parameters in the corresponding docum
 
 This example is a simple demonstration of how to use these methods and callbacks.
 
-To display a thumbbar, all you need to do is add the following script to the top of your web page:
+To display a thumb bar, all you need to do is add the following script to the top of your web page:
 
 ```html
 <script
@@ -16,7 +16,7 @@ This will ensure that the FSI ThumbBar is loaded.
 
 Normally you would need to place the *<fsi-thumbbar>* tag in your source code where you want the viewer to be displayed.
 
-In this example, we only want to display the viewer in place of an image when a button is clicked. The grid with metadata will appear and start rotating.
+In this example, we only want to display the viewer in place of an image when a button is clicked. The image slideshow with metadata will appear and start rotating.
 This means that the viewer is initialised by JavaScript.
 
 To do this, we have created this part in the body:
@@ -99,8 +99,7 @@ document.addEventListener('DOMContentLoaded', () => {
 A click on the `thumbBtn` element will initialise a new FSI Viewer element in the `thumbEle` element.
 
 We create `show` which is called with the `onReady` callback (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/callbacks#onready).
-With this, we ensure a smooth transition:
-Only when the viewer is ready will the viewer element will be set to visible, while the image, text and button are set to `display:none`.
+With this, we ensure a smooth transition: Only when the viewer is ready will the viewer element will be set to visible, while the image, text and button are set to `display:none`.
 
 The viewer itself is created with `$FSI.createNode("fsi-thumbbar",{parameters})`.
 
