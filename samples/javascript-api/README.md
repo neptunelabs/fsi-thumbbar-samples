@@ -53,7 +53,7 @@ In the corresponding `style.css` the image, text and button are placed above the
 }
 ```
 
-The switch on button click is achieved via JS in the corresponding `script.js`:
+The switch on button click is achieved via JS in the corresponding `script.js`-
 
 ```js
 document.addEventListener('DOMContentLoaded', () => {
@@ -98,9 +98,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
 A click on the `thumbBtn` element will initialise a new FSI Viewer element in the `thumbEle` element.
 
-We create `show` which is called with the `onReady` callback (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/callbacks#onready).
+We create `show` which is called with the `onReady` callback (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/callbacks#onready)).
 With this, we ensure a smooth transition: Only when the viewer is ready will the viewer element will be set to visible, while the image, text and button are set to `display:none`.
 
 The viewer itself is created with `$FSI.createNode("fsi-thumbbar",{parameters})`.
+
+The metadata is added with `thumbLabel:'###iptc.Headline### <br/>###iptc.Caption### <br/><br/>###iptc.Urgency###'`.
 
 Then the method `startAutoRotate` will be executed after a timeout (see [documentation](https://docs.neptunelabs.com/docs/fsi-thumbbar/js-api/public-methods#startautorotate)).
