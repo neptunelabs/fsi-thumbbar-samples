@@ -2,5 +2,6 @@
 title: 'FSI ThumbBar'
 projectURL: https://www.neptunelabs.com/fsi-thumbbar/
 originAssetPath: thumbbar
+schema: overview-taupe
 playground:
   stackblitz: fsi-thumbbar-samples
