@@ -1,10 +1,10 @@
 overview:
   title: React
   image: logo.png
-  description: Shows how FSI components can be implemented in React
+  description: Shows how FSI components can be implemented in React.
   order: 10
   facts:
-    - Sample component
+    - Sample component containing FSI ThumbBar
     - FSI Component
 sample:
   template:
