@@ -20,8 +20,8 @@ sample:
     title: Black Friday
     description: Check out our furniture sale.
     link: SHOP NOW
-    highlight: DEALS OF THE DAY
-    categories: true
+  highlight: DEALS OF THE DAY
+  categories: true
   footer:
     credits:
       photos:
