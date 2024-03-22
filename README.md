@@ -5,13 +5,13 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)][License]
 
 
-FSI ThumbBar is a Javascript based image thumb bar with optional image zoom.
+FSI ThumbBar is an image thumb bar with optional image zoom.
 It uses the real-time scaling capabilities of the image server to achieve pixel-perfect results.
 FSI ThumbBar can be created and controlled as a simple HTML tag and/or via the JavaScript API.
 
 This repository contains examples of how to use and build your own applications.
 
-![Project Image](project.apng)
+[![Project Image](project.apng)][GHPages]
 
 ## Getting Started
 

@@ -1,12 +1,12 @@
 overview:
-  title: Frontpage with ThumbBar
+  title: JavaScript API
   image: logo.png
-  description: Shows how a frontpage with a thumbbar included looks.
+  description: Learn how to use the JavaScript ThumbBar API with a simple demo.
   facts:
-    - JS built thumb bar
+    - JS built FSI ThumbBar
     - Meta Data use for labels
     - Styling via CSS
-  order: 1
+  order: 98
 schema: bootstrap-taupe
 sample:
   menu:

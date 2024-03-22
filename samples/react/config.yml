@@ -1,16 +1,17 @@
 overview:
-  title: Frontpage with ThumbBar
+  title: React
   image: logo.png
-  description: Shows how a frontpage with a thumbbar included looks.
+  description: Shows how FSI components can be implemented in React.
+  order: 10
   facts:
-    - JS built thumb bar
-    - Meta Data use for labels
-    - Styling via CSS
-  order: 1
-schema: bootstrap-taupe
+    - Sample component containing FSI ThumbBar
+    - FSI Component
+schema: react-taupe
 sample:
   menu:
     data: furniture-menu.yml
+  featured:
+    data: furniture-featured.yml
   hero:
     url: /server?type=image&source=images/samples/ssi/furniture/house-6691124.jpg&width=1903&rect=0.01416,0.53388,0.75133,0.21963
     height: 33vh
@@ -20,17 +21,18 @@ sample:
     title: Black Friday
     description: Check out our furniture sale.
     link: SHOP NOW
-  highlight: DEALS OF THE DAY
+  highlight: REACT OF THE DAY
   categories: true
   footer:
     credits:
       photos:
-        author: various artists
-        link: https://pixabay.com/
-        platform: Pixabay
+        - author: various artists
+          link: https://pixabay.com/
+          platform: Pixabay
       viewer:
-        link: https://www.neptunelabs.com/dynamic-imaging/
+        link: https://www.neptunelabs.com/fsi-thumbbar/
   fsi:
+    viewer: true
     thumbBar: true
   bootstrap:
-    icons: false
+    icons: true
